@@ -1,0 +1,37 @@
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Dev/Unix/mystery$ cd ~
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ pwd
+/home/wildcodeschool
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ ls
+Bureau  Dev  Documents  Images  Modèles  Musique  Public  Téléchargements  Vidéos
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ cd Images
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Images$ pwd
+/home/wildcodeschool/Images
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Images$ cd ..
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ cd /opt
+wildcodeschool@wildcodeschool-ThinkPad-T430:/opt$ pwd
+/opt
+wildcodeschool@wildcodeschool-ThinkPad-T430:/opt$ cd /
+wildcodeschool@wildcodeschool-ThinkPad-T430:/$ pwd
+/
+wildcodeschool@wildcodeschool-ThinkPad-T430:/$ ls
+bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib             media       proc  sbin  swapfile  usr  vmlinuz.old
+wildcodeschool@wildcodeschool-ThinkPad-T430:/$ cd home/wildcodeschool/
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ cd /
+wildcodeschool@wildcodeschool-ThinkPad-T430:/$ cd bin
+wildcodeschool@wildcodeschool-ThinkPad-T430:/bin$ cd ..
+wildcodeschool@wildcodeschool-ThinkPad-T430:/$ cd usr/bin
+wildcodeschool@wildcodeschool-ThinkPad-T430:/usr/bin$ cd
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ cd ~
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ cd ~/Musique
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Musique$ cd ~
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ ls
+Bureau  Dev  Documents  Images  Modèles  Musique  Public  Téléchargements  Vidéos
+wildcodeschool@wildcodeschool-ThinkPad-T430:~$ cd Dev/
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Dev$ mkdir Linux
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Dev$ cd Linux
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Dev/Linux$ touch console.txt
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Dev/Linux$ ls
+console.txt
+wildcodeschool@wildcodeschool-ThinkPad-T430:~/Dev/Linux$ 
